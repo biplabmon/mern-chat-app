@@ -12,9 +12,9 @@ import connectToMongoDB from "./db/connectToMongoDB.js";
 
 const PORT = process.env.PORT || 5000;
 
-const __dirname = path.resolve();
-
 dotenv.config();
+
+const __dirname = path.resolve();
 
 app.use(express.json());
 app.use(cookieParser());
